@@ -1,0 +1,166 @@
+¿Por qué React y no solo HTML/CSS/JS?
+• HTML/JS: difícil mantenimiento, gestión manual del estado, bajo rendimiento, poco reutilizable.
+• React: componentes reutilizables, Virtual DOM, gestión automática del estado.
+
+Herramientas clave
+• npm → gestor de paquetes.
+• Vite → bundler rápido.
+• Bootstrap / Tailwind / Chakra → librerías CSS.
+• ESLint / Prettier → estilo y calidad del código.
+
+Creación de un proyecto React
+• 1. npm create vite@latest
+• 2. npm install
+• 3. npm run dev
+• 4. Navegador: http://localhost:5173/
+• Flujo: index.html → main.jsx → App.jsx
+• HMR: cambios en tiempo real sin perder el estado.
+
+JSX (JavaScript XML)
+• Sintaxis mezcla HTML + JS.
+• Ej: const el = Hola; equivale a React.createElement().
+
+Componentes y Props
+• Nombrar en PascalCase.
+• Props: datos o funciones padre→hijo.
+• props.children: contenido dentro del componente.
+
+Estado y Hooks
+• useState: agrega estado a un componente.
+• Cada cambio re-renderiza el componente.
+• Declarativo: qué mostrar. Imperativo: cómo hacerlo.
+
+Librería vs Framework
+• Librería (React): tú controlas cuándo usarla.
+• Framework (Angular): controla el flujo y estructura.
+
+Ventajas principales de React
+• Reutilización de componentes.
+• Encapsulamiento y mantenibilidad.
+• Rendimiento optimizado con Virtual DOM.
+• Multiplataforma (web, móvil, escritorio).
+• Flujo de datos predecible.
+• JSX: lógica + estructura juntas.
+
+Git:
+Nos permite tener trazabilidad del proyecto; dividirlo por ramas y que cada integrante pueda trabajar por su parte. 
+tambien volver a versiones anteriores en caso de "meter la pata"
+
+Github: plataforma en remoto que aloja los repositorios.
+
+
+
+COMANDOS GIT COMPLETOS
+
+CONFIGURACION INICIAL
+git --version                                           # Verificar instalación
+git config --global user.name "tu_nombre"              # Configurar nombre
+git config --global user.email "tu_email@ejemplo.com"  # Configurar email
+
+COMANDOS BÁSICOS DEL REPOSITORIO
+git init                                # Inicializar repositorio local
+git status                             # Ver estado del repositorio
+git add <archivo>                      # Agregar archivo específico al staging area
+git add .                              # Agregar todos los archivos al staging area
+git commit -m "Mensaje descriptivo"   # Confirmar cambios
+git log                                # Ver historial de commits
+
+TRABAJO CON REPOSITORIOS REMOTOS
+git remote add origin <url-repositorio>    # Vincular repositorio remoto
+git remote -v                              # Ver repositorios remotos vinculados
+git clone <url-repositorio>                # Clonar repositorio remoto
+git push -u origin <nombre-rama>           # Subir cambios al repositorio remoto
+git pull origin <nombre-rama>              # Traer cambios del repositorio remoto
+
+MANEJO DE RAMAS (BRANCHES)
+git branch                          # Ver ramas locales
+git branch <nombre-rama>            # Crear nueva rama
+git checkout <nombre-rama>          # Cambiar de rama (comando tradicional)
+git switch <nombre-rama>            # Cambiar de rama (comando moderno)
+git merge <nombre-rama>             # Fusionar rama en la rama actual
+git branch -d <nombre-rama>         # Eliminar rama
+
+FLUJO DE TRABAJO TÍPICO
+
+Proyecto Nuevo:
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <url-repositorio>
+git push -u origin master
+
+Trabajar con Ramas:
+git branch feature/login    CREO LA RAMA "LOGIN"
+git switch feature/login    CAMBIO A LA RAMA "LOGIN"
+# ... hacer cambios ...
+git add .
+git commit -m "Añadir funcionalidad de login"
+git push -u origin feature/login
+git switch master
+git merge feature/login          FUSIONA LOS ARCHIVOS
+git branch -d feature/login      
+
+Sincronizar con Repositorio Remoto:
+git pull origin master
+# ... resolver conflictos si los hay ...
+git add .
+git commit -m "Resolver conflictos"
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
