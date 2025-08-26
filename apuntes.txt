@@ -1,46 +1,3 @@
-¿Por qué React y no solo HTML/CSS/JS?
-• HTML/JS: difícil mantenimiento, gestión manual del estado, bajo rendimiento, poco reutilizable.
-• React: componentes reutilizables, Virtual DOM, gestión automática del estado.
-
-Herramientas clave
-• npm → gestor de paquetes.
-• Vite → bundler rápido.
-• Bootstrap / Tailwind / Chakra → librerías CSS.
-• ESLint / Prettier → estilo y calidad del código.
-
-Creación de un proyecto React
-• 1. npm create vite@latest
-• 2. npm install
-• 3. npm run dev
-• 4. Navegador: http://localhost:5173/
-• Flujo: index.html → main.jsx → App.jsx
-• HMR: cambios en tiempo real sin perder el estado.
-
-JSX (JavaScript XML)
-• Sintaxis mezcla HTML + JS.
-• Ej: const el = Hola; equivale a React.createElement().
-
-Componentes y Props
-• Nombrar en PascalCase.
-• Props: datos o funciones padre→hijo.
-• props.children: contenido dentro del componente.
-
-Estado y Hooks
-• useState: agrega estado a un componente.
-• Cada cambio re-renderiza el componente.
-• Declarativo: qué mostrar. Imperativo: cómo hacerlo.
-
-Librería vs Framework
-• Librería (React): tú controlas cuándo usarla.
-• Framework (Angular): controla el flujo y estructura.
-
-Ventajas principales de React
-• Reutilización de componentes.
-• Encapsulamiento y mantenibilidad.
-• Rendimiento optimizado con Virtual DOM.
-• Multiplataforma (web, móvil, escritorio).
-• Flujo de datos predecible.
-• JSX: lógica + estructura juntas.
 
 Git:
 Nos permite tener trazabilidad del proyecto; dividirlo por ramas y que cada integrante pueda trabajar por su parte. 
@@ -108,6 +65,92 @@ git commit -m "Resolver conflictos"
 git push origin master
 
 
+REACT 
+
+
+¿Por qué React y no solo HTML/CSS/JS?
+• HTML/JS: difícil mantenimiento, gestión manual del estado, bajo rendimiento, poco reutilizable.
+• React: componentes reutilizables, Virtual DOM, gestión automática del estado.
+
+Reutilizable: se usa el mismo codigo para un mismo componente.
+
+Herramientas clave
+• npm → gestor de paquetes.
+• Vite → bundler rápido.
+• Bootstrap / Tailwind / Chakra → librerías CSS.
+• ESLint / Prettier → estilo y calidad del código.
+
+Creación de un proyecto React
+• 1. npm create vite@latest
+• 2. npm install
+• 3. npm run dev
+• 4. Navegador: http://localhost:5173/
+• Flujo: index.html → main.jsx → App.jsx
+• HMR: cambios en tiempo real sin perder el estado.
+
+JSX (JavaScript XML)
+• Sintaxis mezcla HTML + JS.
+• Ej: const el = Hola; equivale a React.createElement().
+
+Componentes y Props
+• Nombrar en PascalCase.
+• Props: datos o funciones padre→hijo.
+• props.children: contenido dentro del componente.
+
+Estado y Hooks
+• useState: agrega estado a un componente.
+• Cada cambio re-renderiza el componente.
+• Declarativo: qué mostrar. Imperativo: cómo hacerlo.
+
+Librería vs Framework
+• Librería (React): tú controlas cuándo usarla.
+• Framework (Angular): controla el flujo y estructura.
+
+Ventajas principales de React
+• Reutilización de componentes.
+• Encapsulamiento y mantenibilidad.
+• Rendimiento optimizado con Virtual DOM.
+• Multiplataforma (web, móvil, escritorio).
+• Flujo de datos predecible.
+• JSX: lógica + estructura juntas.
+
+RESUMEN REACT
+
+¿Qué es React?
+React es una librería de JavaScript creada por Facebook para construir interfaces de usuario. 
+Permite crear aplicaciones web, móviles y de escritorio.
+
+Características principales:
+• Virtual DOM: Solo actualiza las partes que cambiaron
+• Componentización: Divide la UI en piezas reutilizables
+• JSX: Sintaxis que mezcla HTML + JavaScript
+• Hooks: Funciones para manejar estado (useState)
+• Programación declarativa: Describes QUÉ mostrar, no CÓMO
+
+Componentes:
+• Son funciones de JavaScript que devuelven JSX
+• Se nombran en PascalCase (ej: UserProfile)
+• Reciben props (datos) del componente padre
+• props.children: contenido dentro del componente
+
+Estado:
+• useState: Hook para agregar estado a componentes
+• Cada cambio de estado re-renderiza el componente
+• El estado fluye de padre a hijo (unidireccional)
+
+Ventajas vs HTML/CSS/JS puro:
+• Mejor mantenimiento en aplicaciones grandes
+• Gestión automática del estado
+• Mayor rendimiento con Virtual DOM
+• Código reutilizable y modular
+• HMR: cambios en tiempo real
+
+Librería vs Framework:
+• React (librería): Tú controlas cuándo usarla
+• Angular (framework): Controla el flujo de tu aplicación
+
+
+renderizacion selectiva -> se va modificando una pequeña parte de la pagina. 
 
 
 
