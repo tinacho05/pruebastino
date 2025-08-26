@@ -154,12 +154,22 @@ renderizacion selectiva -> se va modificando una pequeña parte de la pagina.
 
 
 
+Diferencia entre Framework y Librería
+Definiciones Básicas
+Librería
+Qué es: Conjunto de funciones y herramientas que TÚ utilizas
+Control: Tú decides cuándo y cómo usarla
+Analogía: Es como una caja de herramientas - tomas las que necesitas
+Framework
+Qué es: Estructura completa que controla el flujo de tu aplicación
+Control: El framework decide cuándo llamar tu código
+Analogía: Es como un kit de construcción con instrucciones específicas
 
 
+Diferencias principales entre React y Angular
+React es una biblioteca de JavaScript desarrollada por Facebook que se centra en la creación de interfaces de usuario, ofreciendo mayor flexibilidad y un menor conjunto de herramientas integradas. Es más fácil de aprender pero requiere configuración adicional.
 
-
-
-
+Angular es un framework completo desarrollado por Google que incluye todo lo necesario para crear aplicaciones web complejas, con herramientas integradas para routing, formularios y testing, pero tiene una curva de aprendizaje más pronunciada.
 
 
 

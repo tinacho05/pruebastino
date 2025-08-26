@@ -226,19 +226,8 @@ typescript	Si usas TypeScript (opcional).
 
 
 
-
-
-
 Ejemplo de Manipulación de DOM sin react
 Ejemplo de Manipulación de DOM con react
-
-
-
-
-
-
-
-
 
 
 
