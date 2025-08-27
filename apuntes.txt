@@ -176,8 +176,12 @@ Angular es un framework completo desarrollado por Google que incluye todo lo nec
 
 
 
+un componente REACT es una funcion de javascript
+PascalCase: etiqueta de react; con la primera mayuscula la Diferenciamos
 
+JavaScript + xml: mezcla funciones de js que devuelve html
 
+camelCase
 
 
 
