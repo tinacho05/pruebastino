@@ -184,14 +184,45 @@ JavaScript + xml: mezcla funciones de js que devuelve html
 camelCase
 
 
+Los Hooks son funciones especiales de React que:
+- Permiten usar estado y otras características de React en componentes funcionales
+- Siempre empiezan con "use" (ej: useState, useEffect)
+- Solo se pueden usar en componentes React o custom hooks
+- No se pueden usar dentro de condicionales o loops
+
+Ejemplos principales:
+- useState: Maneja el estado del componente
+- useEffect: Maneja efectos secundarios (ej: llamadas API)
+- useContext: Accede al contexto de React
+- useRef: Referencias a elementos DOM o valores persistentes
+
+Ventajas:
+- Simplifican la lógica del componente 
+- Permiten reutilizar lógica entre componentes
+- Reemplazan el uso de clases en React
+- Mejor manejo del ciclo de vida del componente
 
 
+Props (Properties):
+- Son datos que un componente padre pasa a un componente hijo
+- Son de solo lectura (inmutables)
+- Permiten la comunicación entre componentes
+- Se pasan como atributos HTML
 
+Ejemplo básico:
+Padre -> <Hijo nombre="Juan" edad={25} />
+Hijo -> function Hijo(props) { 
+          return <h1>Hola {props.nombre}</h1>
+        }
 
+Relación Padre-Hijo:
+- Padre: Componente que contiene/renderiza a otros componentes
+- Hijo: Componente que es renderizado dentro de otro
+- El flujo de datos es unidireccional (de padre a hijo)
+- Un padre puede tener múltiples hijos
+- Un hijo solo puede tener un padre
 
-
-
-
+Los props son la forma principal de pasar datos entre componentes en React, manteniendo un flujo de datos predecible y fácil de rastrear.
 
 
 
